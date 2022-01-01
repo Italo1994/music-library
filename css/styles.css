@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root {
+    padding-left: 20px;
+    color: #e5e5e5e7;
+}
+
+.gap {
+    margin: 20px 0;
+}
+
+body {
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+.main__container {
+    display: flex;
+    height: 100vh;
+    color: #fff;
+}
+
+#header {
+    height: 100vh;
+    background-color: rgb(32, 15, 86);
+}
+
+#aside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.area-profile {
+    
+}
+
+.edit {
+    display: flex;
+}
+
+.progress__bar {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: hsla(0, 34%, 81%, 0.467);
+}
+
+.percent__bar {
+    position: absolute;
+    width: 20%;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: rgb(21, 3, 80);
+}
+
+/* ==== TIPOGRAFIA ==== */
+.second__title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    color: hsla(0, 34%, 81%, 0.467);
+}
