@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&family=Poppins:wght@400;500;600;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,10 +11,12 @@
 :root {
     padding-left: 20px;
     color: #e5e5e5e7;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 .gap {
-    margin: 20px 0;
+    margin: 25px 0;
 }
 
 body {

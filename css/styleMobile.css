@@ -13,7 +13,7 @@
     }
 
     #searchBar__area {
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* font-family: Georgia, 'Times New Roman', Times, serif; */
         color: #4d4b4b;
         font-size: 1.05rem;
         font-weight: 600;
@@ -30,7 +30,7 @@
     }
 
     #searchBar__area input {
-        background-color: hsla(0, 3%, 47%, 0.2);
+        background-color: hsla(0, 3%, 47%, 0.05);
         border: none;
         border-radius: 40px;
         padding: 5px;
@@ -45,6 +45,7 @@
     }
 
     ::-webkit-input-placeholder {
+        font-size: 14px;
         color: #fff;
      }
       
@@ -86,34 +87,46 @@
          margin-top: 10px;
      }
 
+    /* ====   ==== */
+
     .profile__view__area {
         display: flex;
         align-items: center;
+        gap: 5px;
         width: 100%;
         min-width: 100%;
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
     }
 
     .profile__view__area img {
-        width: 50px;
+        width: 70px;
         height: 50px;
         border-radius: 5px;
+        background-size: cover;
+        background-position: top;
     }
 
     .profile__view__area div {
         height: 50px;
+        width: 200px;
         padding-left: 10px;
         display: flex;
         flex-direction: column;
+        flex-shrink: 150px;
+        flex-basis: 220px;
         justify-content: space-between;
-        border: 1px solid gray;
+        /* border: 1px solid gray; */
     }
 
     .albums {
         display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 4px;
+        height: 50px;
         width: 100%;
-        height: 100%;
-        height: 40px;
-        border: 1px solid green;
+        margin-right: 10px;
+        /* border: 1px solid green; */
     }
+
 }
