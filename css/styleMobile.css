@@ -7,77 +7,32 @@
         display: none;
     }
 
-    .container__content {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    #searchBar__area {
-        /* font-family: Georgia, 'Times New Roman', Times, serif; */
-        color: #4d4b4b;
-        font-size: 1.05rem;
-        font-weight: 600;
-        width: 100%;
-        padding: 30px 0;
-    }
-
-    #searchBar__area div {
+    .main__container {
         display: flex;
     }
 
-    #searchBar__area i {
-        font-size: 16px;
-    }
-
-    #searchBar__area input {
-        background-color: hsla(0, 3%, 47%, 0.05);
-        border: none;
-        border-radius: 40px;
-        padding: 5px;
-        width: 350px;
+    .container__content {
+        padding-left: 15px;
+        width: 100%;
         max-width: 100%;
     }
 
-    #searchBar__area input:focus {
-        outline: none;
-        border-color: #fff;
-        box-shadow: 0 0 10px #fff;
-    }
+    
 
-    ::-webkit-input-placeholder {
-        font-size: 14px;
-        color: #fff;
-     }
-      
-     :-moz-placeholder { /* Firefox 18- */
-        color: #fff;  
-     }
-      
-     ::-moz-placeholder {  /* Firefox 19+ */
-        color: #fff;  
-     }
-      
-     :-ms-input-placeholder {  
-        color: #fff;  
-     }
+     /* ==== PLAYLISTS ==== */
 
-     /* ==== CAROUSEL PLAYLISTS ==== */
-     #tracks {
-        
-     }
-
-     .carousel__tracks {
+     .carousel__ {
          display: flex;
          gap: 20px;
      }
 
-     .carousel__tracks article {
+     .carousel__ article {
          display: flex;
          flex-direction: column;
          width: 700px;
      }
 
-     .carousel__tracks img {
+     #playlist .carousel__ img {
          border-radius: 20px;
          width: 400px;
          min-width: 100%;
@@ -89,44 +44,25 @@
 
     /* ====   ==== */
 
-    .profile__view__area {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        width: 100%;
-        min-width: 100%;
-        /* border: 1px solid yellow; */
-    }
-
-    .profile__view__area img {
-        width: 70px;
-        height: 50px;
-        border-radius: 5px;
-        background-size: cover;
-        background-position: top;
-    }
-
-    .profile__view__area div {
-        height: 50px;
-        width: 200px;
-        padding-left: 10px;
+    /* ==== PROFILE AND TRACKS ==== */
+    .profile__tracks__section {
         display: flex;
         flex-direction: column;
-        flex-shrink: 150px;
-        flex-basis: 220px;
-        justify-content: space-between;
-        /* border: 1px solid gray; */
     }
 
-    .albums {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 4px;
-        height: 50px;
-        width: 100%;
-        margin-right: 10px;
-        /* border: 1px solid green; */
+    /* ==== TRACKS ==== */
+    
+    #tracks .carousel__ img {
+        border-radius: 5px;
+        width: 150px;
+        min-width: 100%;
+        height: 100px;
+        cursor: pointer;
+        margin-bottom: 15px;
+        margin-top: 10px;
     }
+}
+
+@media screen and (min-width: 768px) {
 
 }

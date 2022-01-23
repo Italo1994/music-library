@@ -48,17 +48,18 @@
             <section class="container__content">
                 <div id="searchBar__area">
                     <div>
-                        <i class="fas fa-search"></i>
+                        <!-- <i class="fas fa-search"></i> -->
+                        <a href="#"> <img src="./assets/search_white.svg" alt=""> </a>
                         <input type="search" id="site__search" name="site__search" aria-label="search" placeholder="Search artists, playlists or tracks"/> 
                     </div>
                 </div>
     
-                <section id="tracks" class="gap">
+                <section id="playlist" class="gap">
                     <article>
                         <h2 class="second__title">Featured Playlists</h2>
                     </article>
 
-                    <div class="carousel__tracks">
+                    <div class="carousel__">
                         <article>
                             <img src="assets/playlist1.jpg" alt="playlist1" aria-label="playlist1" />
                             <h2 class="second__title">Only STARDUST</h2>
@@ -77,48 +78,93 @@
                         <article>
                             <img src="assets/playlist4.jpg" alt="playlist1" aria-label="playlist1" />
                             <h2 class="second__title">Let it Be</h2>
+                            <p><span>138</span> tracks</p>
                         </article>
-                    </div> <!-- End of div carousel__tracks -->
+                    </div> <!-- End of div carousel__ -->
 
                     <span class="progress__bar"> <span class="percent__bar"></span> </span>
-                </section> <!-- End of section tracks -->
+                </section> <!-- End of section playlist -->
 
-                <section class="gap">
-                    <header>
-                        <h2 class="second__title">Profile Views</h2>
-                    </header>
-                    
-                    <div>
-                        <div class="profile__view__area">
-                            <img src="./assets/view1.jpg" alt="view1" />
-                            <div>
-                                <span name="name1" class="name">Jenny Villa</span>
-                                <p><span>1</span> day ago</p>
+                <section class="profile__tracks__section">
+                    <div class="gap">
+                        <header>
+                            <h2 class="second__title">Profile Views</h2>
+                        </header>
+                        
+                        <div>
+                            <div class="profile__view__area">
+                                <img src="./assets/view1.jpg" alt="view1" />
+                                <div>
+                                    <span name="name1" class="name">Jenny Villa</span>
+                                    <p><span>1</span> day ago</p>
+                                </div>
+                                <p class="albums"><span>4</span> albums</p>
                             </div>
-                            <p class="albums"><span>4</span> albums</p>
-                        </div>
-                        <div class="profile__view__area">
-                            <img src="./assets/view2.jpg" alt="view2" />
-                            <div>
-                                <span name="name2" class="name">Aquila</span>
-                                <p><span>3</span> days ago</p>
+                            <div class="profile__view__area">
+                                <img src="./assets/view2.jpg" alt="view2" />
+                                <div>
+                                    <span name="name2" class="name">Aquila</span>
+                                    <p><span>3</span> days ago</p>
+                                </div>
+                                <p class="albums"><span>4</span> albums</p>
                             </div>
-                            <p class="albums"><span>4</span> albums</p>
-                        </div>
-                        <div class="profile__view__area">
-                            <img src="./assets/view3.jpg" alt="view3" />
-                            <div>
-                                <span name="name3" class="name">This is War</span>
-                                <p><span>2</span> weeks ago</p>
+                            <div class="profile__view__area">
+                                <img src="./assets/view3.jpg" alt="view3" />
+                                <div>
+                                    <span name="name3" class="name">This is War</span>
+                                    <p><span>2</span> weeks ago</p>
+                                </div>
+                                <p class="albums"><span>4</span> albums</p>
                             </div>
-                            <p class="albums"><span>4</span> albums</p>
                         </div>
                     </div>
+
+                    <div id="tracks" class="gap">
+                        <article>
+                            <h2 class="second__title">Tracks</h2>
+                        </article>
+
+                        <div class="carousel__">
+                            <article>
+                                <img src="assets/track1.jpg" alt="playlist1" aria-label="track1" />
+                                <h2 class="second__title">Mahara Bon</h2>
+                                <p>Sexy in Paris</p>
+                            </article>
+                            <article>
+                                <img src="assets/track2.jpg" alt="playlist1" aria-label="track2" />
+                                <h2 class="second__title">Donna</h2>
+                                <p>Pseudo Life</p>
+                            </article>
+                            <article>
+                                <img src="assets/track3.jpg" alt="playlist1" aria-label="track3" />
+                                <h2 class="second__title">Avven</h2>
+                                <p><span>Magic</p>
+                            </article>
+                            <article>
+                                <img src="assets/track4.jpg" alt="playlist1" aria-label="track4" />
+                                <h2 class="second__title">Cony</h2>
+                            </article>
+                            <article>
+                                <img src="assets/track5.jpg" alt="playlist1" aria-label="track5" />
+                                <h2 class="second__title">Cony</h2>
+                            </article>
+                            <article>
+                                <img src="assets/track6.jpg" alt="playlist1" aria-label="track6" />
+                                <h2 class="second__title">Cony</h2>
+                            </article>
+                            <article>
+                                <img src="assets/track7.jpg" alt="playlist1" aria-label="track4" />
+                                <h2 class="second__title">Cony</h2>
+                            </article>
+                        </div> <!-- End of div carousel__tracks -->
+
+                        <span class="progress__bar"> <span class="percent__bar"></span> </span>
+                    </div> <!-- End of div tracks -->
                 </section>
 
-            </section>
+            </section> <!-- End of section container__content -->
 
-        </div>
+        </div> <!-- End of div main__container -->
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
